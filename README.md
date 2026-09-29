@@ -23,5 +23,8 @@ El archivo `thebookstore_portfolio.sql` es un dump completo para MySQL 8.0 (moto
 - **5 triggers** que mantienen consistencia automática (por ejemplo, dar de baja un título del catálogo según su margen, o recalcular totales de un pedido al cargar su detalle).
 - **7 stored procedures** y **1 función** para consultas y cálculos recurrentes del negocio (consulta de stock, margen sugerido, top de ventas por categoría, etc.).
 
+## Esquema interactivo en Miro: 
+https://miro.com/app/board/uXjVHrGH-eo=/?share_link_id=108733418465
+
 ## Nota sobre los datos
 En este repositorio, las tablas fueron pobladas mediante IA con datos artificiales para proteger datos sensibles del negocio. En la realidad, las tablas fueron pobladas con datos pre-existentes en MS Excel.
